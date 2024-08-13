@@ -13180,7 +13180,6 @@ a.read_more i {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   margin-bottom: 10px;
-
 }
 
 .nft_coll.style-2 {
@@ -16714,4 +16713,69 @@ img {
 
 .no-cursor {
   cursor: not-allowed;
+}
+
+.slick-slide {
+  padding: 0 5px;
+}
+
+.hot-collections__arrow-prev {
+  color: #000;
+  border: 1px solid #dddddd;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 28px;
+  position: absolute;
+  z-index: 5;
+  top: 45%;
+  left: -15px;
+  transition: all 300ms ease;
+}
+.hot-collections__arrow-next {
+  color: #000;
+  border: 1px solid #dddddd;
+  background-color: #fff;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 28px;
+  position: absolute;
+  z-index: 5;
+  top: 45%;
+  right: -15px;
+  transition: all 300ms ease;
+}
+
+.hot-collections__arrow-next:hover,
+.hot-collections__arrow-prev:hover {
+  transform: scale(1.05);
+  filter: brightness(0.95);
+}
+
+.hot--collection__skeleton {
+  background-color: #dddddd;
+}
+
+.nft-name__skeleton {
+  background-color: #dddddd;
+  width: 100px;
+  height: 20px;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.nft-code__skeleton {
+  background-color: #dddddd;
+  width: 50px;
+  height: 20px;
+  margin: 8px auto;
+  border-radius: 6px;
 }
