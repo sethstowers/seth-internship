@@ -16719,6 +16719,8 @@ img {
   padding: 0 5px;
 }
 
+
+
 .hot-collections__arrow-prev {
   color: #000;
   border: 1px solid #dddddd;
@@ -16735,6 +16737,7 @@ img {
   top: 45%;
   left: -15px;
   transition: all 300ms ease;
+  cursor: pointer;
 }
 .hot-collections__arrow-next {
   color: #000;
@@ -16752,6 +16755,7 @@ img {
   top: 45%;
   right: -15px;
   transition: all 300ms ease;
+  cursor: pointer;
 }
 
 .hot-collections__arrow-next:hover,
@@ -16779,3 +16783,5 @@ img {
   margin: 8px auto;
   border-radius: 6px;
 }
+
+
