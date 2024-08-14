@@ -13668,7 +13668,7 @@ a.read_more i {
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 350px;
+  height: 360px;
 }
 
 .nft__item_wrap a {
@@ -13677,7 +13677,7 @@ a.read_more i {
 }
 
 .nft__item img {
-  width: 100%;
+  width: 100%; 
   height: auto !important;
   border-radius: 8px;
   -moz-border-radius: 8px;
@@ -16784,4 +16784,33 @@ img {
   border-radius: 6px;
 }
 
+.new-items__title {
+  background-color: #ddd;
+  width: 130px;
+  height: 20px;
+}
 
+.nft-price__skele {
+  background-color: #ddd;
+  width: 72px;
+  height: 20px;
+}
+
+.nft-likes__skele {
+  background-color: #ddd;
+  width: 36px;
+  height: 20px;
+}
+
+@media (max-width: 768px) {
+  .nft__item {
+    padding-top: 32px;
+  }
+  .nft__item_wrap {
+    width: 100%;
+  }
+  .nft__item img {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
