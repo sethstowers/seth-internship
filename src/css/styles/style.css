@@ -16802,6 +16802,22 @@ img {
   height: 20px;
 }
 
+.top-seller__name {
+  background-color: #ddd;
+  width: 100px;
+  height: 20px;
+}
+
+.top-seller__price {
+  background-color: #ddd;
+  margin-top: 4px;
+  width: 50px;
+  height: 16px;
+}
+
+
+
+
 @media (max-width: 768px) {
   .nft__item {
     padding-top: 32px;
