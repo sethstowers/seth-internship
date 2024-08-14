@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import SkeletonPP from "../../images/hot-collection-skeleton--pp.png";
-import nftImage from "../../images/nftImage.jpg";
 import axios from "axios";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -12,11 +11,10 @@ import { HiChevronRight } from "react-icons/hi";
 const HotCollections = () => {
   const [hotCollections, setHotCollections] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
-  const skeletonArr = [0, 0, 0, 0];
 
   const settings = {
     dots: false,
-    centerPadding: "10px",
+
     infinite: true,
     speed: 500,
     slidesToShow: 4,
