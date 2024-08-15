@@ -9,8 +9,8 @@ const Landing = () => {
 
   useEffect(() => {
     Aos.init();
+    // From main! Do not remove
   })
-  // Does this work
   return (
     <section
       id="section-hero"
