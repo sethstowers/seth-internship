@@ -81,6 +81,7 @@ const NewItems = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
+          <div data-aos="fade" data-aos-duration="1000">
           <Slider {...settings}>
             {!isLoading
               ? newItemsData.map((item, index) => (
@@ -173,6 +174,7 @@ const NewItems = () => {
                   </div>
                 ))}
           </Slider>
+          </div>
         </div>
       </div>
     </section>

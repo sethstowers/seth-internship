@@ -81,7 +81,7 @@ const HotCollections = () => {
               <div className="small-border bg-color-2"></div>
             </div>
           </div>
-          <div className="slider-container">
+          <div className="slider-container" data-aos="fade" data-aos-duration="1000">
             <Slider {...settings}>
               {!isLoading
                 ? hotCollections.map((collection, index) => (
