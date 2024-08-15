@@ -10,7 +10,9 @@ const Landing = () => {
   useEffect(() => {
     Aos.init();
   })
-  // Does this work
+  
+  // Testing merge
+
   return (
     <section
       id="section-hero"
