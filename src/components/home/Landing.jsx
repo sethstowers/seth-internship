@@ -9,10 +9,14 @@ const Landing = () => {
 
   useEffect(() => {
     Aos.init();
+    // From main! Do not remove
   })
+<<<<<<< HEAD
   
   // Testing merge
 
+=======
+>>>>>>> main
   return (
     <section
       id="section-hero"
