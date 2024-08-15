@@ -16815,6 +16815,60 @@ img {
   height: 16px;
 }
 
+.profile_username-skel {
+  background-color: #ddd;
+  width: 100px;
+  height: 20px;
+}
+
+.profile_name-skel-1 {
+  background-color: #ddd;
+  width: 200px;
+  height: 30px;
+}
+.profile_name-skel-2 {
+  background-color: #ddd;
+  width: 100px;
+  height: 24px;
+}
+.profile_name-skel-3 {
+  background-color: #ddd;
+  width: 200px;
+  height: 24px;
+}
+
+.profile_name_container-skel {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  justify-content: center;
+  gap: 10px;
+}
+
+.author_follow-skele {
+  background-color: #ddd;
+  width: 156px;
+  height: 36px;
+}
+
+.author_post-name-skel {
+  background-color: #ddd;
+  width: 124px;
+  height: 24px;
+}
+
+.author_post-price-skel {
+  background-color: #ddd;
+  width: 56px;
+  height: 24px;
+}
+
+.author_post-likes-skel {
+  background-color: #ddd;
+  width: 36px;
+  height: 24px;
+}
+
 
 
 
