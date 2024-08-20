@@ -25,15 +25,18 @@ const Author = () => {
 
   function follow() {
     if (isFollwed === false) {
-      setFollowers(followers + 1)
-      followButton.innerHTML = 'Followed';
+      setFollowers(followers => followers + 1)
       setIsFollowed(true)
       
-    } 
+    } else {
+      setFollowers(followers => followers - 1)
+      setIsFollowed(false)
+    }
   }
 
   useEffect(() => {
     getAuthor()
+    window.scrollTo(0, 0);
   }, [])
 
   return (
@@ -79,7 +82,7 @@ const Author = () => {
                       <div className="profile_follower">{followers} followers</div>
                    
                       <button to="#" className="btn-main" onClick={() => follow()}>
-                        <span id='follow-btn'>Follow</span>
+                        <span id='follow-btn'>{isFollwed ? <span>Unfollow</span> : <span>Follow</span>}</span>
                       </button>
                    
                     </div>

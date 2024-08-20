@@ -30,7 +30,7 @@ const ExploreItems = () => {
 
   useEffect(() => {
     getExploreItems();
-  });
+  }, [filter]);
   return (
     <>
       <div>
